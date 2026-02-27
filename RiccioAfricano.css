@@ -1,0 +1,196 @@
+body{
+    background-color: #b0763b;
+}
+nav {
+    background-color: #343434;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav li:hover {
+    color: #ff8c34;
+    transition: 0.3s;
+}
+#foto{
+    background-color: #df9138;
+    border-radius: 30px;
+    text-align:center;
+    margin: 20px;
+    font-size: 16px;
+
+}
+.img{
+     background-color:  rgb(144, 69, 34);
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 20px 50px 40px rgba(0, 0, 0, 0.08);
+  font-style: "Roboto", sans-serif;
+  font-size: 20px;
+  margin: 20px;
+}
+img:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+#h2_form:hover {
+    transform: scale(1.1) ;
+}
+.title{
+    font-family: "Walter Turncoat", cursive;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-shadow: 10px 2px 5px rgb(0, 0, 0);
+    text-align:center;
+    letter-spacing: 2px;
+    transition: transform 0.5s ease, text-shadow 0.5s ease;    
+}
+.title:hover {
+    transform: scale(1.1);
+    text-shadow: 15px 5px 10px rgb(0, 0, 0);
+}
+#special {
+    font-family: "Walter Turncoat", cursive;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-shadow: 10px 2px 5px rgb(0, 0, 0);
+    text-align:center;
+    letter-spacing: 2px;
+    transition: transform 0.5s ease, text-shadow 0.5s ease;    
+}
+#special:hover{
+    transform: scale(1.1);
+    text-shadow: 15px 5px 10px rgb(0, 0, 0);
+}
+
+ p {
+    font-family: "Walter Turncoat", cursive;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 30px;
+    margin-top: 20px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+h2 {
+  font-family: 'Walter Turncoat',cursive;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align:center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-image: round;
+    border-radius: 50%;
+    object-fit: cover;
+}
+hr {
+    margin: 20px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+}
+h3 {
+    font-family: 'Walter Turncoat',cursive;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #000000;
+    margin: 20px;
+    padding: auto;
+    text-align: justify;
+}
+li{
+    margin: 10px;
+}
+iframe{
+    border-radius: 30px;
+    height: 400px;
+    margin-left: 355px;
+    margin-top: 40px;
+    padding: auto;
+    display: flex;
+}
+#form {
+    background-color: rgb(222, 183, 78);
+    padding: 20px;
+    margin-top: 20px;
+}
+a{
+    text-align: center;
+}
+.link{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.link:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 0.8s;
+}
+input, textarea {
+  width: 90%;
+  padding: 8px;
+  border-radius: 10px;
+  border: 2px solid #c18345;
+  font-family: 'Walter Turncoat', cursive;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  background-color: #c18345;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff8c34;
+  transform: scale(1.05);
+}
+
+.errore {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+#messaggioFinale {
+  margin-top: 15px;
+  font-size: 18px;
+  color: green;
+  font-weight: bold;
+}
+
+small {
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+}
