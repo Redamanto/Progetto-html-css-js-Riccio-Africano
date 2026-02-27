@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rosario Ippolito">
+    <meta name="description" content="Il riccio africano, il mio animale preferito"> 
+    <link rel="stylesheet" href="RiccioAfricano.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almendra+SC&family=Bonheur+Royale&family=Eagle+Lake&family=Pixelify+Sans:wght@400..700&family=Playwrite+MX:wght@100..400&display=swap" rel="stylesheet">
+    <title>Il Riccio Africano</title>
+</head>
+<body>
+    <main>
+    <div class="title">
+    <h1> <b> <i> Il Riccio Africano</i></b></h1>
+    </div>
+      <header>
+<nav>
+  <ul>
+      <li>HOME</li>
+      <li>INFORMAZIONI SUL RICCIO</li>
+      <li>FORUM</li>
+      <li>RICCI REGISTRATI</li>
+    </ul>
+</nav>
+</header>
+    <section id="foto">
+    <p><br>
+    Il riccio africano è sempre più diffuso come animale domestico, ma richiede attenzioni particolari per garantire il suo benessere.
+     Non deve essere confuso con il riccio europeo, che è parte della fauna selvatica e <strong>non può</strong> essere detenuto legalmente.
+    </p>
+    <hr>
+     <ul>
+    <li><h2 id="special"> Distinzione tra i due tipi di riccio:</h2></li>
+    <figure>
+      <div class="img">
+    <img src="https://images.pexels.com/photos/50577/hedgehog-animal-baby-cute-50577.jpeg" alt="Riccio Africano" title="Immagine di riccio africano" width="400">
+  </figure>
+    <figcaption>  <div class="img"><Strong> Riccio africano, si differenza per il suo pelo più chiaro e corto. Inoltre è più piccolo.</Strong></div></figcaption>
+   </div>
+    <figure>
+  <div class="img">
+  <img src="https://images.pexels.com/photos/2196593/pexels-photo-2196593.jpeg" alt="Riccio Europeo" title="Immagine di riccio europeo" width="400">
+  </div>
+  </figure>
+  <figcaption> <div class="img"> <Strong>Riccio europeo, ha un pelo più scuro e solitamente più lungo.</Strong></div></figcaption>
+</ul>
+</div>
+</section>
+<section id="Informazioni">
+<hr><h2 id="special">  Informazioni sul riccio </h2><hr>
+<h3><em>Il riccio africano (Atelerix albiventris o simili) è un piccolo mammifero insettivoro,
+noto come animale domestico esotico (NAC), amichevole e notturno, che vive solitamente 5-8 anni. 
+A differenza del parente europeo, non va in letargo, ma richiede un ambiente caldo (25-30°C) 
+per evitare torpore e infezioni respiratorie. Sono animali solitari che necessitano di una dieta insettivora/proteica e di una ruota per 
+l'esercizio.
+<strong>Ogni esemplare dovrà avere a disposizione:</strong> 
+<li>almeno <strong>1,5- 2 mq</strong> di superficie. In natura gli studi dimostrano un home range stimato tra i 200 e i 300 metri.</li>
+<li>optare per teche o contenitori dalle pareti lisce e dotati di ampi sistemi di aerazione.</li>
+<li><strong>sconsigliate</strong> le gabbie in quanto i ricci, arrampicandosi, potrebbero rimanere incastrati oppure subire ferite anche gravi alle piccole e corte zampe.</li>
+<li>unire i contenitori in plastica attraverso l’utilizzo di passaggi tubulari, ampliando così lo spazio di movimento.</li>
+<li>Sarebbe bene che le strutture fossero poste in luoghi tranquilli, illuminati ma sempre facendo in modo che non vengano colpite dalla luce diretta del sole.</li>
+<li>Non va dimenticato comunque che, nonostante gli esemplari attualmente in commercio provengono da allevamenti, i ricci africani provengono da regioni a clima caldo e dovrebbero idealmente stare a una temperatura ambientale compresa tra i <strong>22° e i 29°C</strong>.</li>
+</em>
+</h3>
+<a href="https://www.youtube.com/watch?v=8AThA38HHGA&t=11s" target="_blank" Ulteriori informazioni sul riccio africano></a>
+</section>
+<!--- Sezione alimentazione dell'animale descritto. Sono presenti dei normali h2, h3 e 
+una lista di cibi che l'animale può mangiare. L'hr viene utilizzato per creare delle linee di separazione e decorazione -->
+<section id="Alimentazione">
+<hr><h2 id="special">  Alimentazione del riccio africano </h2><hr>
+<h3><li><strong>Insetti vivi</strong></li></h3>  
+<h3><li><strong>Crocchette</strong></li></h3>
+<h3><li><strong>Frutta e verdura (in piccole quantità)</strong></li></h3>
+</section>
+<!--- Inserimento iframe con link al video-->
+<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/OPL3NSQ_WSI?si=zepvacxXARZwjxkB"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+</div>
+
+<!--- Inizio della sezione "form" del sito. Il background cambia nuovamente colore per evidenziare la sezione del form.--->
+<section id="form">
+  <h2 id="h2_form">Parlaci del tuo riccetto 🦔</h2>
+  <form id="riccioForm">
+    <fieldset>
+      <legend><strong>Informazioni principali</strong></legend>
+      <label>
+        Nome del riccio:
+        <br>
+        <input 
+          id="nomeRiccio"
+          type="text"
+          maxlength="40"
+          placeholder="Inserisci il nome..."
+          required>
+        <small id="contatoreNome">0 / 40</small>
+        <div class="errore" id="erroreNome"></div>
+      </label>
+      <br><br>
+      <label>
+        Età (in anni):
+        <br>
+        <input 
+          id="etaRiccio"
+          type="number"
+          min="0"
+          max="10"
+          placeholder="Es: 2">
+        <div class="errore" id="erroreEta"></div>
+      </label>
+      <br><br>
+      <label>
+        Colore del pelo:
+        <br>
+        <input 
+          id="coloreRiccio"
+          type="text"
+          placeholder="Es: Bianco e marrone">
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend><strong>Carattere</strong></legend>
+      <label>
+        Come descriveresti il tuo riccio?
+        <br>
+        <textarea 
+          id="descrizioneRiccio"
+          rows="4"
+          maxlength="200"
+          placeholder="È timido? Vivace? Dormiglione?"></textarea>
+        <small id="contatoreDescrizione">0 / 200</small>
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend><strong>Foto del riccio</strong></legend>
+      <input 
+        id="fotoRiccio"
+        type="file"
+        accept=".png,.jpg,.jpeg"
+        required>
+      <div id="previewContainer"></div>
+    </fieldset>
+    <br>
+    <button type="submit" id="bottoneInvio">Invia dati 🧡</button>
+    <div id="messaggioFinale"></div>
+  </form>
+</section>
+</div>
+</main>
+</body>
+</section>
+</html>
